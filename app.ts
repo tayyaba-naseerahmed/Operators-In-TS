@@ -1,7 +1,8 @@
-let isRaining = false;
-if (isRaining) {
-    console.log("wear a raincoat");
-}
-else {
-    console.log("wear sunglasses");
+let weather = "cloudy";
+if (weather === "raining") {
+    console.log("Wear a raincoat.");
+} else if (weather === "cloudy" ) {
+    console.log("Wear a light jacket. ");
+} else {
+    console.log("Wear sunglasses.");
 }
