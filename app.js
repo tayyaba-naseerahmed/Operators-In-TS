@@ -1,5 +1,17 @@
-"use strict";
-let bags = 3;
-let apples = 5;
-let totalApples = bags * apples;
-console.log(totalApples);
+// a++
+var a = 5;
+var b = 2;
+console.log(a++);
+console.log(a);
+// ++a
+var c = 5;
+console.log(++a);
+console.log(a);
+// a--
+var d = 5;
+console.log(a--);
+console.log(a);
+// --a
+var e = 5;
+console.log(--a);
+console.log(a);
