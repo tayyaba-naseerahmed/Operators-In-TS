@@ -1,4 +1,4 @@
-var cart = 5;
-var num3 = 2;
-var total = cart - num3;
-console.log(total);
+var totalApples = 20;
+var bags = 4;
+var eachBags = totalApples / bags;
+console.log(eachBags);

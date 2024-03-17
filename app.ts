@@ -1,5 +1,6 @@
-let cart: number = 5;
-let num3: number =2;
+let  totalApples: number = 20;
+let bags: number = 4;
 
-let total: number = cart - num3
-console.log(total)
+let eachBags: number = totalApples/bags
+
+console.log(eachBags)
