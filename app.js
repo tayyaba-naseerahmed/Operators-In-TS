@@ -1,4 +1,4 @@
-var apple = 5;
-var bags = 2;
-var reminder = apple % bags;
-console.log(reminder);
+"use strict";
+let c = 35;
+c += 20;
+console.log(c);

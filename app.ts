@@ -1,6 +1,4 @@
-let apple = 5
-let bags  = 2
+let c = 35;
+c  += 20;
 
-let reminder = apple % bags;
-
-console.log(reminder)
+console.log(c);
