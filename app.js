@@ -1,4 +1,8 @@
 "use strict";
-let isHungry = false;
-let snack = isHungry ? "apple" : "water";
-console.log(`You should have some ${snack}.`);
+let isRaining = true;
+if (isRaining) {
+    console.log("wear a raincoat.");
+}
+else {
+    console.log("wear sunglasses.");
+}
