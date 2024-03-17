@@ -1,11 +1,4 @@
 "use strict";
-let a = 5;
-let b = 2;
-let isEqual = (a == b);
-let isNotEqual = (a != b);
-let isGreaterThan = (a > b);
-let isLessThan = (a < b);
-console.log(a == b);
-console.log(a != b);
-console.log(a > b);
-console.log(a < b);
+let isHungry = false;
+let snack = isHungry ? "apple" : "water";
+console.log(`You should have some ${snack}.`);
