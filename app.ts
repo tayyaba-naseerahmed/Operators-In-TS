@@ -1,6 +1,6 @@
-let  totalApples: number = 20;
-let bags: number = 4;
+let bags: number = 3;
+let apples: number = 5;
 
-let eachBags: number = totalApples/bags
+let totalApples : number = bags * apples 
 
-console.log(eachBags)
+console.log(totalApples);

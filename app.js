@@ -1,4 +1,5 @@
-var totalApples = 20;
-var bags = 4;
-var eachBags = totalApples / bags;
-console.log(eachBags);
+"use strict";
+let bags = 3;
+let apples = 5;
+let totalApples = bags * apples;
+console.log(totalApples);
