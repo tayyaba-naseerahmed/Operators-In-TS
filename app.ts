@@ -1,4 +1,3 @@
-let c = 35;
-c  += 20;
+let result = 3 + 4 * 5;
 
-console.log(c);
+console.log(result)

@@ -1,4 +1,2 @@
-"use strict";
-let c = 35;
-c += 20;
-console.log(c);
+var result = 3 + 4 * 5;
+console.log(result);
