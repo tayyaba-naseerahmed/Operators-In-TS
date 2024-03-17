@@ -1,11 +1,9 @@
 "use strict";
-let weather = "cloudy";
-if (weather === "raining") {
-    console.log("Wear a raincoat.");
-}
-else if (weather === "cloudy") {
-    console.log("Wear a light jacket. ");
-}
-else {
-    console.log("Wear sunglasses.");
-}
+let a = 20;
+let b = 30;
+let logicalAnd = (a > 0) && (b > 0);
+let logicalor = (a < 0) || (b > 0);
+let logicalNot = !(a > 0);
+console.log(logicalAnd);
+console.log(logicalor);
+console.log(logicalNot);
