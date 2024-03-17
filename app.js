@@ -1,9 +1,12 @@
 "use strict";
-let a = 10;
-let b = 30;
-let logicalAnd = (a > 0) && (b > 0);
-let logicalOr = (a < 0) || (b > 0);
-let logicalNot = !(a > 0);
-console.log(logicalAnd);
-console.log(logicalOr);
-console.log(logicalNot);
+let dayoff = "Sunday";
+switch (dayoff) {
+    case "Saturday":
+        console.log("Go hiking.");
+        break;
+    case "Sunday":
+        console.log("Read a book.");
+        break;
+    default:
+        console.log("Work on a hobby.");
+}
