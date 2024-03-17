@@ -1,8 +1,8 @@
 "use strict";
-let isRaining = true;
+let isRaining = false;
 if (isRaining) {
-    console.log("wear a raincoat.");
+    console.log("wear a raincoat");
 }
 else {
-    console.log("wear sunglasses.");
+    console.log("wear sunglasses");
 }
