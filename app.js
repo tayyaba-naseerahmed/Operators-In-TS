@@ -1,9 +1,9 @@
 "use strict";
-let a = 20;
+let a = 10;
 let b = 30;
 let logicalAnd = (a > 0) && (b > 0);
-let logicalor = (a < 0) || (b > 0);
+let logicalOr = (a < 0) || (b > 0);
 let logicalNot = !(a > 0);
 console.log(logicalAnd);
-console.log(logicalor);
+console.log(logicalOr);
 console.log(logicalNot);
